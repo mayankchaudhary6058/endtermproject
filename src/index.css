@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 999px;
+}
